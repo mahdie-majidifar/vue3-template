@@ -49,10 +49,10 @@ const days=ref([{
 },])
 
 
-const nextWeek=()=>{
+const nextWeek=computed(()=>{
   if(currentWeek.value >= 4) resetCurrentWeek()
   else currentWeek.value++
-}
+})
 const resetCurrentWeek=()=>{
   currentWeek.value=0
 }

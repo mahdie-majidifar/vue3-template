@@ -16,7 +16,7 @@
       <router-link to="#" class="w-40 flex items-center justify-center text-white bg-disabled rounded-full h-10">View more</router-link>
     </div>
     <div class="flex flex-col w-full items-center justify-center mt-5 gap-5 relative">
-      <div class="w-80 rounded-t-full absolute bottom-16 mx-auto border-t border-dashed border-white h-40">1</div>
+      <div class="w-80 rounded-t-full absolute bottom-16 mx-auto border-t border-dashed border-white h-40"></div>
       <img src="/images/svg/shoe.svg" class="w-16 h-16">
       <div class="flex flex-col items-center justify-center pt-8 gap-5 z-10 bg-secondary w-full border-t-2 border-disabled my-2">
         <span class="text-disabled text-lg">Double walking time</span>
